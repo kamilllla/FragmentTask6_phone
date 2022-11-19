@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text="Hello World!"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <RatingBar
+        android:id="@+id/ratingRecycler"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:isIndicator="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="5dp"
+        android:numStars="5"
+        android:paddingTop="5dp" />
+
+</LinearLayout>
